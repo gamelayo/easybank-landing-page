@@ -52,7 +52,7 @@ const Main = () => {
           <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-5 my-8">
             <div className="flex flex-col items-center md:items-start">
               <img src={onlineBank} alt="" className="w-[72px] h-[72px]" />
-              <h2>Online Banking</h2>
+              <h2 className="my-3">Online Banking</h2>
               <p className="text-center md:text-start">
                 Our modern web and mobile applications allow you to keep track
                 of your finances wherever you are in the world.
@@ -60,7 +60,7 @@ const Main = () => {
             </div>
             <div className="flex flex-col items-center md:items-start">
               <img src={budgeting} alt="" className="w-[72px] h-[72px]" />
-              <h2>Simple Budgeting</h2>
+              <h2 className="my-3">Simple Budgeting</h2>
               <p className="text-center md:text-start">
                 See exactly where your money goes each month. Receive
                 notifications when you’re close to hitting your limits.
@@ -69,7 +69,7 @@ const Main = () => {
 
             <div className="flex flex-col items-center md:items-start">
               <img src={Onboarding} alt="" className="w-[72px] h-[72px]" />
-              <h2>Fast Onboarding</h2>
+              <h2 className="my-3">Fast Onboarding</h2>
               <p className="text-center md:text-start">
                 We don’t do branches. Open your account in minutes online and
                 start taking control of your finances right away.
@@ -77,7 +77,7 @@ const Main = () => {
             </div>
             <div className="flex flex-col items-center md:items-start">
               <img src={API} alt="" className="w-[72px] h-[72px]" />
-              <h2>Open API</h2>
+              <h2 className="my-3">Open API</h2>
               <p className="text-center md:text-start">
                 Manage your savings, investments, pension, and much more from
                 one account. Tracking your money has never been easier.
