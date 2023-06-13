@@ -15,13 +15,8 @@ const Main = () => {
     <main className="w-full mt-16">
       {/* Hero section */}
       <div className="hero-section bg-[#fafafa] py-6">
-        <div className="hero-img">
-          <img
-            src={image}
-            alt="phone-mockup"
-            className="hero-img-top"
-            style={{ backgroundSize: "contain" }}
-          />
+        <div className="hero-img py-8">
+          <img src={image} alt="phone-mockup" className="hero-img-top" />
         </div>
         <div className="hero-intro container">
           <h1>Next generation digital banking</h1>
