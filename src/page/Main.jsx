@@ -14,7 +14,7 @@ const Main = () => {
   return (
     <main className="w-full mt-16">
       {/* Hero section */}
-      <div className="hero-section">
+      <div className="hero-section bg-[#fafafa]">
         <div className="hero-img">
           <img
             src={image}
