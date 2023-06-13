@@ -14,7 +14,7 @@ const Main = () => {
   return (
     <main className="w-full mt-16">
       {/* Hero section */}
-      <div className="hero-section bg-[#fafafa]">
+      <div className="hero-section bg-[#fafafa] py-6">
         <div className="hero-img">
           <img
             src={image}
@@ -37,8 +37,8 @@ const Main = () => {
       </div>
       {/* Second Section */}
       <div className="bg-[#f3f4f6]">
-        <div className="w-[85%] mx-auto py-10">
-          <div className="my-8">
+        <div className="w-[85%] mx-auto py-20">
+          <div className="my-10">
             <h1 className="md:text-start"> Why choose Easybank?</h1>
             <p className="text-center md:text-start">
               We leverage Open Banking to turn your bank account into your
@@ -49,7 +49,7 @@ const Main = () => {
               Control your finances like never before.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-5 my-8">
+          <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-5 my-10">
             <div className="flex flex-col items-center md:items-start">
               <img src={onlineBank} alt="" className="w-[72px] h-[72px]" />
               <h2 className="my-3">Online Banking</h2>
@@ -88,7 +88,7 @@ const Main = () => {
       </div>
       {/* Third Section */}
       <div className="bg-[#fafafa]">
-        <div className="w-[85%] mx-auto py-10">
+        <div className="w-[85%] mx-auto py-20">
           <h1 className="md:text-start my-6">Latest Articles</h1>
           <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-5 my-10">
             <div className="bg-[#ffff]">
@@ -106,7 +106,7 @@ const Main = () => {
               </div>
             </div>
             <div className="bg-[#ffff]">
-              <img src={restaurant} alt="" />
+              <img src={restaurant} alt="/" />
               <div className="p-4">
                 <span className="text-[#9698a6]">By Wilson Hutton</span>
                 <h3 className="my-1">
@@ -119,7 +119,7 @@ const Main = () => {
               </div>
             </div>
             <div className="bg-[#ffff]">
-              <img src={plane} alt="" className="" />
+              <img src={plane} alt="/" />
               <div className="p-4">
                 <span className="text-[#9698a6]">By Wilson Hutton</span>
                 <h3 className="my-1">
@@ -133,7 +133,7 @@ const Main = () => {
               </div>
             </div>
             <div className="bg-[#ffff]">
-              <img src={confetti} alt="" />
+              <img src={confetti} alt="/" />
               <div className="p-4">
                 <span className="text-[#9698a6]">By Claire Robinson</span>
                 <h3 className="my-1">

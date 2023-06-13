@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className="bg-white w-full fixed top-0 z-20">
       <nav className="flex items-center justify-between  w-[85%] mx-auto ">
-        <div className="cursor-pointer py-6">
+        <div className="cursor-pointer py-8">
           <img src={logo} alt="logo" />
         </div>
         <ul className="hidden md:flex gap-4 items-center ">

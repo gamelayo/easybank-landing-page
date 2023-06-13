@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2d314d] text-[#fff]">
+    <footer className="bg-[#2d314d] text-[#fff] py-12">
       <div className="w-[85%] flex justify-between mx-auto py-12 flex-col md:flex-row gap-3">
         <div className="flex flex-col items-center gap-10">
           <img src={logo} alt="" className="text-[#fff]" />
